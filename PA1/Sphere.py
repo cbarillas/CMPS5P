@@ -6,7 +6,7 @@
 from math import pi as p
 
 radius = float(input("Enter the radius of the sphere: "))
-surfaceArea = 4* p*radius**2
+surfaceArea = 4*p*radius**2
 volume = 4/3*p*radius**3
 
 print("The volume is: {}".format(volume))
